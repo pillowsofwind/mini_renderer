@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ray_tracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\vecmath\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_tracer">
+				<Option output="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/bin/ray_tracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include"/>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_tracer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_tracer/fast">
+				<Option output="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/bin/ray_tracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include"/>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_tracer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vecmath">
+				<Option output="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug/deps/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug/deps/vecmath"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 vecmath"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vecmath/fast">
+				<Option output="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug/deps/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/cmake-build-debug/deps/vecmath"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 vecmath/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xrw/CLionProjects/Computational\ Geographic/ray_tracer/cmake-build-debug/deps/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Matrix2f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Matrix3f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Matrix4f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Quat4f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Vector2f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Vector3f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/Vector4f.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/include/vecmath.h">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Matrix2f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Matrix3f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Matrix4f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Quat4f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Vector2f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Vector3f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/src/Vector4f.cpp">
+			<Option target="vecmath"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/bezier.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/bitmap_image.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/camera.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/cube_map.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/group.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/hit.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/image.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/kdtree.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/light.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/material.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/mesh.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/noise.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/object3d.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/octree.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/perlin_noise.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/plane.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/ray.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/render.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/scene_parser.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/simple_method.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/sphere.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/texture.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/transform.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/include/triangle.hpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/bezier.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/image.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/kdtree.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/main.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/mesh.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/octree.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/perlin_noise.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/render.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/src/scene_parser.cpp">
+			<Option target="ray_tracer"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/deps/vecmath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\vecmath\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

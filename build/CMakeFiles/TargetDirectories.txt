@@ -1,0 +1,6 @@
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/CMakeFiles/rebuild_cache.dir
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/CMakeFiles/edit_cache.dir
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/CMakeFiles/ray_tracer.dir
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/deps/vecmath/CMakeFiles/edit_cache.dir
+/Users/xrw/CLionProjects/Computational Geographic/ray_tracer/build/deps/vecmath/CMakeFiles/vecmath.dir
